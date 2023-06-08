@@ -1,7 +1,7 @@
 const FOLDER_ID = "1etAjqcCXzsubdWkLnndvBNXZVx6jj8D6"
 const SPREAD_SHEET_ID = "1yc7I8rEGc-rVn-CXySwOR79CWyH4fk5t4dWaOZHpBtY";
 const SHEET_NAME = "シート1"
-const ACCESS_TOKEN = "3srB7Sh2G/msHdJ6Tnl3Mh54K14+qcXa3D0GG0nKt7WfI7e5B0XsRfthrAA7yWMbZ5KbHoE8VSXYA40d1oE6+Q0JM3bkEZ+5ee/o6prRW/NrSxxKS1pHdGAO/tPx3OuAMMllehXsrW11nXGC9ShJ1gdB04t89/1O/w1cDnyilFU=";
+const ACCESS_TOKEN = "";
 
 const sheet = SpreadsheetApp.openById(SPREAD_SHEET_ID).getSheetByName(SHEET_NAME);
 const bot = new LineBotSdk.client(ACCESS_TOKEN);
