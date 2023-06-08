@@ -1,0 +1,40 @@
+# OCR LINE bot
+
+## DEMO
+
+  - デプロイしている場合はURLを記入（任意）
+
+## 紹介と使い方（どんなプロダクトなのか）
+
+  - 検査結果報告書等を写メし、LINEで送信するとOCRで
+    textを取り出して、spread sheetに記載してくれるLINE-bot
+
+    ※（できれば土曜日レビュー会までに上記写メからOCRで抜きだしたtext
+        の中から数値を抜き出し、LINEに返したい）
+
+    今後、超音波検査のお助けプロダクトを作成した時に
+    利用者から画像や検査データを簡易的に送信してもらい、数値データを
+    機械的に取り出し
+
+## 工夫した点
+
+  - まだこれからです。
+
+## 苦戦した点
+
+  Google Apps Scriptを使い慣れていない事
+  LINE Official Account Managerの使用法など
+
+
+
+## 参考にした web サイトなど
+
+  - 後で見返せるように
+GAS x OCRで画像から文字を抜き出す方法
+  https://www.youtube.com/watch?v=kgaQ5LnA-qA
+
+【GAS】Google Apps Scriptで書いたコードをGiitHubで公開するための段取り
+  https://www.endorphinbath.com/gas-setup-to-publish-github/
+
+GASをGit管理するならGithubアシスタントとclaspどっちを使うか？
+  https://zenn.dev/rescuenow/articles/936a1f4fb4d889
